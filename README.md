@@ -20,7 +20,7 @@ please run the following cells to install all:
 ### Files
 
 Current zip file holds following files for challenge dataset creation, classification experiment (2 pretrained models), and system validation (Failure rate). 
-Each file creates the challenge dataset, load the pretrained models to run classification and saves results. The gold lables from challenge data creation and system predictions from system classification are used for validating (testing) the systems.
+The gold lables and sample sentences from challenge data creation and system results from samples are saved in the folder called data and are then used for validation.
 
 * Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
 * Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
