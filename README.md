@@ -7,8 +7,9 @@ Task: Evaluation on the capabilities of two pretrained models for Semantic Role 
 Student:
 Long Ma (2761790)
 
-### requirements please run the following cells to install all:
+### Requirements 
 
+please run the following cells to install all:
 ! pip install panda ! pip install allennlp-models
 
 ###  Two pretrained models are available at:
