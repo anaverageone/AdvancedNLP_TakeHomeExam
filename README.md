@@ -22,11 +22,11 @@ please run the following cells to install all:
 Current zip file holds following files for challenge dataset creation, classification experiment (2 pretrained models), and system validation (Failure rate). 
 Each file creates the challenge dataset, load the pretrained models to run classification and saves results. The gold lables from challenge data creation and system predictions from system classification are used for validating (testing) the systems.
 
-Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
-Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
-Polysemy_test.ipynb: a jupiter notebook that test the capability of dealing with sentences using very agentive entities.
-Proposition_test.ipynb: a jupiter notebook that test the capability of dealing with propositional variation.
-Robustness_test.ipynb: a jupiter notebook that test the robustness (adversarial examples, typos, etc.).
-Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation sentences.
-Synonym_test.ipynb: a jupiter notebook that test the capability of dealing with synonym variation using VerbNet verb frame(cooking-45.3).
+* Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
+* Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
+* Polysemy_test.ipynb: a jupiter notebook that test the capability of dealing with sentences using very agentive entities.
+* Proposition_test.ipynb: a jupiter notebook that test the capability of dealing with propositional variation.
+* Robustness_test.ipynb: a jupiter notebook that test the robustness (adversarial examples, typos, etc.).
+* Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation sentences.
+* Synonym_test.ipynb: a jupiter notebook that test the capability of dealing with synonym variation using VerbNet verb frame(cooking-45.3).
 
