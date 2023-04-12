@@ -9,16 +9,17 @@ Long Ma (2761790)
 
 ### requirements please run the following cells to install all:
 
-# pip install panda
-# pip install allennlp-models
+! pip install panda ! pip install allennlp-models
 
-The two pretrained models implemented are available at:
+###  Two pretrained models are available at:
+
 * structured-prediction-srl-bert - https://github.com/allenai/allennlp-models/blob/main/allennlp_models/modelcards/structured-prediction-srl-bert.json
 * structured-prediction-srl - https://github.com/allenai/allennlp-models/blob/main/allennlp_models/modelcards/structured-prediction-srl.json
 
-Files
+### Files
+
 Current zip file holds following files for challenge dataset creation, classification experiment (2 pretrained models), and system validation (Failure rate). 
-Each file creates the challenge dataset, load the pretrained models to run classification and saves results. The gold lables and system predictions are used for validating (testing) the system.
+Each file creates the challenge dataset, load the pretrained models to run classification and saves results. The gold lables from challenge data creation and system predictions from system classification are used for validating (testing) the systems.
 
 Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
 Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
