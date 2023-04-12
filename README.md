@@ -1,20 +1,30 @@
 # AdvancedNLP_TakeHomeExam
 
-Master of Text Mining, VU University Task: Named Entity Recognition
+Master of Text Mining, VU University 
+
+Task: Evaluation on the capabilities of two pretrained models for Semantic Role Labeling (SRL)
 
 Student:
 Long Ma (2761790)
 
-###requirements please run the following cells to install all:
+### requirements please run the following cells to install all:
 
-! pip install pandas ! pip install sklearn ! pip install gensim ! pip install numpy
+# pip install panda
+# pip install allennlp-models
+
+The two pretrained models implemented are available at:
+* structured-prediction-srl-bert - https://github.com/allenai/allennlp-models/blob/main/allennlp_models/modelcards/structured-prediction-srl-bert.json
+* structured-prediction-srl - https://github.com/allenai/allennlp-models/blob/main/allennlp_models/modelcards/structured-prediction-srl.json
 
 Files
+Current zip file holds following files for challenge dataset creation, classification experiment (2 pretrained models), and system validation (Failure rate). 
+Each file creates the challenge dataset, load the pretrained models to run classification and saves results. The gold lables and system predictions are used for validating (testing) the system.
 
-Current zip file holds following files for feature extraction, classification experiment, hyper-parameter tuing, feature ablation, and final system validation:
+Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
+Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
+Polysemy_test.ipynb: a jupiter notebook that test the capability of dealing with sentences using very agentive entities.
+Proposition_test.ipynb: a jupiter notebook that test the capability of dealing with propositional variation.
+Robustness_test.ipynb: a jupiter notebook that test the robustness (adversarial examples, typos, etc.).
+Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation sentences.
+Synonym_test.ipynb: a jupiter notebook that test the capability of dealing with synonym variation using VerbNet verb frame(cooking-45.3).
 
-NER_Preprocess.ipynb: a jupiter notebook to pre-process original training (conll2003.train.conll), devlopment (conll2003.dev.conll), and test (conll2003.test.conll). Output is used in Experiment.ipynb for training the classifiers and validating (testing) the system.
-
-Experiment.ipynb: a jupiter notebook containing all functions for feature extraction, classification experiment, hyper-parameter tuing, feature ablation, and final system validation.
-
-word_embedding_basic_system.ipynb: a jupiter notebook to incoporate word embeddings and one-hot encoding as feature representation for system experiment.
