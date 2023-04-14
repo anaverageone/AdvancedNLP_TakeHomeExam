@@ -24,7 +24,7 @@ The gold lables and sample sentences from challenge data creation and system res
 
 * Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation.
 * Cleft_test .ipynb: a jupiter notebook that test the capability of dealing with it-cleft construction.
-* Polysemy_test.ipynb: a jupiter notebook that test the capability of dealing with sentences using very agentive entities.
+* Polysemy_test.ipynb: a jupiter notebook that test the capability of dealing with sentences using words with multiple meanings.
 * Proposition_test.ipynb: a jupiter notebook that test the capability of dealing with propositional variation.
 * Robustness_test.ipynb: a jupiter notebook that test the robustness (adversarial examples, typos, etc.).
 * Act_Pass_test.ipynb: a jupiter notebook that test the capability of dealing with active and passive variation sentences.
